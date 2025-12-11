@@ -6,6 +6,12 @@ It allows users to send Python (and JavaScript in easy-level) code to an API, an
 This setup ensures that untrusted or harmful scripts cannot affect the host system.
 The main purpose of this project is to understand how to safely execute external code using Docker’s isolation and resource-control features.
 
+work flow diagram
+
+<img width="1536" height="1024" alt="ChatGPT Image Dec 11, 2025, 05_05_19 PM" src="https://github.com/user-attachments/assets/bcbb6107-2bad-4bc5-9e93-2ce466bdad48" />
+
+
+
 Setup Instructions
 1. Create Project Folder
 
@@ -290,6 +296,15 @@ Easy Level Enhancements
 
 Extend the executor to run JavaScript code using a Node.js Docker image.
 This helps your platform support multiple languages and makes it more useful.
+<img width="1634" height="918" alt="Screenshot 2025-12-11 134418" src="https://github.com/user-attachments/assets/02381dc9-065f-4eb7-91da-1e521ca32dc7" />
+<img width="1417" height="870" alt="Screenshot 2025-12-11 134234" src="https://github.com/user-attachments/assets/c4c7383e-180c-4545-897e-2a89951fa0c9" />
+<img width="1766" height="968" alt="Screenshot 2025-12-11 134000" src="https://github.com/user-attachments/assets/6b3634b2-2133-48e2-b44a-333914be49b7" />
+<img width="1496" height="930" alt="Screenshot 2025-12-11 133528" src="https://github.com/user-attachments/assets/2e0ad0b2-a86c-48d1-a422-d30e64afe6cc" />
+
+
+
+
+
 
 2. Improve the Web UI
 
@@ -304,6 +319,14 @@ Clear buttons
 Light/Dark mode (optional)
 
 A simple UI upgrade greatly improves the user experience.
+
+<img width="973" height="707" alt="Screenshot 2025-12-11 134654" src="https://github.com/user-attachments/assets/e0ed8ede-b4e0-4b40-be77-461d66bb26ab" />
+<img width="939" height="772" alt="Screenshot 2025-12-11 134610" src="https://github.com/user-attachments/assets/b160a694-a5e4-4c9c-bb9e-c46400f67126" />
+<img width="878" height="794" alt="Screenshot 2025-12-11 134527" src="https://github.com/user-attachments/assets/b72c626c-7929-4d84-99d3-9a54dcab0e49" />
+
+<img width="870" height="731" alt="Screenshot 2025-12-11 135002" src="https://github.com/user-attachments/assets/fec0ef1f-6412-4b4e-a5f1-9caa883a7a7a" />
+<img width="857" height="734" alt="Screenshot 2025-12-11 134923" src="https://github.com/user-attachments/assets/70cd9680-5709-493c-a627-3f7338e3e1c7" />
+
 
 3. Add Execution History
 
@@ -330,6 +353,9 @@ Validate file types
 Execute correctly based on an entry file
 
 This makes your executor more powerful and closer to real-world tools.
+
+<img width="1255" height="586" alt="Screenshot 2025-12-11 193705" src="https://github.com/user-attachments/assets/69574695-9212-4207-8766-366d7d7dbe89" />
+
 
 2. Add Syntax Highlighting
 
