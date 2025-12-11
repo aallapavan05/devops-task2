@@ -10,6 +10,8 @@ work flow diagram
 
 <img width="1536" height="1024" alt="ChatGPT Image Dec 11, 2025, 05_05_19 PM" src="https://github.com/user-attachments/assets/bcbb6107-2bad-4bc5-9e93-2ce466bdad48" />
 
+<img width="449" height="572" alt="Screenshot 2025-12-11 194853" src="https://github.com/user-attachments/assets/27f2023e-7c4e-4056-a1c3-c95083e1d386" />
+
 
 
 Setup Instructions
