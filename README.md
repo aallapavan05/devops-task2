@@ -355,6 +355,9 @@ Execute correctly based on an entry file
 
 This makes your executor more powerful and closer to real-world tools.
 
+<img width="449" height="572" alt="Screenshot 2025-12-11 194853" src="https://github.com/user-attachments/assets/76e82ba6-55f3-4ee3-bf9d-afb0012e8057" />
+
+
 <img width="1255" height="586" alt="Screenshot 2025-12-11 193705" src="https://github.com/user-attachments/assets/69574695-9212-4207-8766-366d7d7dbe89" />
 
 
