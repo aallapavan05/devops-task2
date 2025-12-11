@@ -65,6 +65,12 @@ Hello World
 This confirmed that the API and Docker container execution were working correctly.
 
 <img width="1355" height="767" alt="image" src="https://github.com/user-attachments/assets/56d23b3a-6c5f-4740-a530-8a3f19404ee2" />
+
+<img width="1832" height="951" alt="Screenshot 2025-12-11 130922" src="https://github.com/user-attachments/assets/31dd86e8-e513-435e-8e79-88b2140e1635" />
+
+
+<img width="1465" height="1004" alt="Screenshot 2025-12-11 131110" src="https://github.com/user-attachments/assets/4477d2f1-0908-45e0-b108-25d2eab993e5" />
+
 Security Features Implemented
 
 To secure the execution environment, I implemented multiple Docker-based protection layers.
@@ -135,6 +141,11 @@ Result:
 Inside the container, this command worked because /etc/passwd exists inside the container’s filesystem, not your host machine.
 I learned that containers have their own system files and cannot directly access host OS files.
 
+
+
+<img width="1299" height="817" alt="Screenshot 2025-12-11 192235" src="https://github.com/user-attachments/assets/a3478e0c-72d9-473e-9ba3-5fed2b374ce3" />
+
+
 2. Writing files inside the container
 with open("/tmp/test.txt", "w") as f:
     f.write("hacked!")
@@ -142,6 +153,11 @@ with open("/tmp/test.txt", "w") as f:
 
 Result:
 This worked initially because a container normally allows writing to its internal filesystem.
+
+
+
+<img width="1523" height="597" alt="Screenshot 2025-12-11 192314" src="https://github.com/user-attachments/assets/1a92b3c6-3848-41b6-bb37-1960a296d421" />
+
 
 Learning:
 Even though the container is isolated, user code can still modify files inside the container.
